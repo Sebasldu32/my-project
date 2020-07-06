@@ -1,0 +1,280 @@
+body{
+    font-family: 'Poppins', sans-serif; 
+}
+
+.contenedor{
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a{
+    margin-top: 30px;
+}
+
+.menu img{
+    border-radius: 28px!important;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover{
+    color: #55B7B6;
+}
+
+
+#sello{
+    background-color: #ffffff;
+    margin: 10rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+.imagen-sello{
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.parrafo-sello{
+    text-align: center;
+    color: #552242;
+}
+
+#titulo{
+    background-color: #ffff;
+    margin: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.subtitulo-parrafo{
+    max-width: 1280px;
+    width: 50%;
+    margin: auto;
+}
+
+
+.subtitulo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.parrafo-centro{
+    width: 90%;
+    height: auto;
+    text-align: center;
+}
+
+.parrafo-centro h1{
+    color: #55B7B6;
+    text-align: center;
+}
+
+.parrafo-centro p{
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.parrafo-centro i{
+    text-align: center;
+}
+
+#actividades{
+    background-color: #f4f4f4 ;
+    margin:4rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+h2{
+    color: #55B7B6;
+    text-align: center;
+}
+
+h3{
+    color: #55B7B6;
+}
+
+samp{
+    color: #666666;
+}
+
+
+.ejercicio{
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+
+.ejercicios-yoga{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.entretenimiento{
+    width: 30%;
+    height: auto;
+    background-color: #ffff;
+    text-align: center;
+}
+
+.entretenimiento ul{
+    color: #666666;
+    font-size: 1.5rem;
+}
+
+.entretenimiento p{
+    color: #212A31;
+}
+
+.entretenimiento i{
+    font-size: 3rem;
+    color: red;
+    
+}
+
+.footer-info{
+    text-align: center;
+}
+
+.mi-parrafo{
+    color: #212A31;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.iconos{
+    text-decoration: none;
+    width: 30%;
+    font-size: 1.5rem;
+}
+
+.iconos ul{
+    list-style: none;
+}
+
+.iconos i{
+    text-decoration: none;
+    padding: 20px 20px;
+    color: #212A31;
+}
+
+@media screen and (max-width: 800px){
+    .menu{
+        width: 100%;
+    }
+
+    .menu a{
+        width: 100%;
+    }
+
+    .menu img{
+        width: 100%;
+    }
+
+    nav ul li{
+        width: 100%;
+    }
+
+    nav ul li a{
+        width: 100%;
+    }
+
+    .logo{
+        width: 100%;
+    }
+
+    #sello{
+        width: 100%;
+    }
+
+    .imagen-sello{
+        width: 100%;
+    }
+
+    .parrafo-sello{
+        width: 100%;
+    }
+
+    #titulo{
+        width: 100%;
+    }
+
+    .subtitulo-parrafo{
+        width: 100%;
+    }
+
+    .subtitulo{
+        width: 100%;
+    }
+
+    .parrafo-centro{
+        width: 100%;
+    }
+
+    h2{
+        width: 100%;
+    }
+
+    h3{
+        width: 100%;
+    }
+
+    .contenedor{
+        width: 100%;
+    }
+
+    .ejercicio{
+        width: 100%;
+    }
+
+    .ejercicios-yoga{
+        width: 100%;
+    }
+
+    .entretenimiento{
+        width: 100%;
+    }
+    
+    .footer-info{
+        width: 100%;
+    }
+
+    .mi-parrafo{
+        width: 100%;
+    }
+
+    .iconos{
+        width: 100%;
+    }
+
+    #actividades{
+        width: 100%;
+    }
+
+    samp{
+        width: 100%;
+    }
+
+}
+
